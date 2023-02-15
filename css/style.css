@@ -1,0 +1,77 @@
+body {
+
+    background-color: black;
+    border: solid white ;
+    text-align: center;
+}
+
+.container{
+    
+    font-family: Arial, Helvetica, sans-serif;
+  
+   
+}
+
+.p1{
+    color: red;
+}
+
+.c1{
+    color:blue;
+}
+
+.r1{
+
+    color: hotpink;
+}
+
+.textcolor{
+
+    color:hotpink
+}
+
+button {
+    border-radius: 12px;
+    padding: 32px 16px;
+    background-color: aqua;
+ 
+}
+
+.knapp1:hover {
+background-color: blueviolet;
+
+}
+
+.knapp2:hover {
+
+  background-color: chartreuse;  
+}
+
+.knapp3:hover{
+    background-color: gold;
+}
+
+.highscoreListContainer {
+    margin: 20px;
+    width: 150px;
+    
+    padding: 10px;
+    color: red;
+  }
+
+  .highScore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 100%;
+   
+  }
+
+.user-name-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-145%, 300%);
+    
+}
